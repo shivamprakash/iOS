@@ -19,6 +19,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet var resultsDisplayLabel : UILabel!
+    @IBAction func pizzaType(sender : UISegmentedControl){
+        
+    }
+    @IBAction func sizeButton(sender : UIButton)
+    {
+        //Blue
+    }
+    @IBAction func clearDisplayButton(sender : UIButton)
+    {
+        //Red
+    }
 
 
 }
